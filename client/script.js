@@ -70,7 +70,7 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
   //fetch data from the server
-  const response = await fetch('http://localhost:5500', {
+  const response = await fetch('https://openai-codex-lit3.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
